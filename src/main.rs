@@ -1,5 +1,5 @@
-mod lib;
+use wgpu_ui_test::run;
 
 fn main() {
-    lib::run();
+    pollster::block_on(run());
 }

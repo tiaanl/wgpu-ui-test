@@ -9,6 +9,7 @@ crate-type = ["cdylib", "rlib"]
 [dependencies]
 bytemuck = { version = "1.4", features = ["derive"] }
 cfg-if = "1"
+cgmath = "0.18"
 env_logger = "0.9"
 image = { version = "0.24", default-features = false, features = ["png"] }
 log = "0.4"

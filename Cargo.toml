@@ -10,6 +10,7 @@ crate-type = ["cdylib", "rlib"]
 bytemuck = { version = "1.4", features = ["derive"] }
 cfg-if = "1"
 env_logger = "0.9"
+image = { version = "0.24", default-features = false, features = ["png"] }
 log = "0.4"
 pollster = "0.2"
 wgpu = "0.13"
